@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+process.title = "osgrep";
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { program } from "commander";
